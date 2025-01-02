@@ -224,7 +224,7 @@ img {
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+    overflow: scroll;
 }
 
 @media screen and (min-width: 768px) {
@@ -249,11 +249,31 @@ img {
     color: #2e2f42;
 }
 
+.mobile-close-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    height: 24px;
+    width: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+    stroke-width: 1px;
+    fill: #2e2f42;
+}
+
 .mobile-menu-nav {
     margin-bottom: auto;
 }
 
 .nav-menu-list {
+    display: flex;
+    flex-direction: column;
     gap: 40px;
 
 }
@@ -269,11 +289,125 @@ img {
     color: #404bbf;
 }
 
-.mobile-close-btn  {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    background-color: transparent;
+.addr-list-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.addr-link-menu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
 }
 
+.mobile-menu-icons-container {
+ 
+
+}
+
+.mobile-menu-icons {
+display: flex;
+width: 100%;
+justify-content: center;
+gap: 48px;
+margin: auto;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
+}
+
+/* #region hero */
+
+.hero {
+    padding: 72px 0;
+    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    background-size: cover;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 112px 0;
+        height: 436px;
+    }
+}
+
+@media screen and (min-width: 1168px) {
+    .hero {
+        padding: 188px 0;
+        height: 100%;
+    }
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    max-width: 216px;
+    margin-bottom: 72px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        margin-bottom: 36px;
+    }
+}
+
+.hero-btn {
+    display: block;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
