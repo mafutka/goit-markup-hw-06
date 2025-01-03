@@ -216,28 +216,12 @@ align-items: center;
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.third-title-section {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-
-.section-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 
 /* #endregion section */
 
 /* #region ourteam */
 
-.colorstyle {
+.ourteam {
     background-color: #f4f4fd;
     padding: 120px 0;
 }
@@ -252,7 +236,7 @@ align-items: center;
     gap: 24px;
 }
 
-.ot-pf-title {
+.ot-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -263,7 +247,7 @@ align-items: center;
     margin-bottom: 72px;
 }
 
-.teamcolor {
+.team-item {
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     width: 264px;
