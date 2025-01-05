@@ -609,7 +609,6 @@ margin: auto;
 
 .portfolio {
     width: 288px;
-    height: 2752px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 96px;
@@ -618,14 +617,12 @@ margin: auto;
 @media screen and (min-width: 768px) {
     .portfolio {
     width: 736px;
-    height: 1516px;
     }
 }
 
 @media screen and (min-width: 1168px) {
     .portfolio {
     width: 1128px;
-    max-height: 780px;
     padding: 0;
     }
 }
@@ -772,27 +769,27 @@ margin: auto;
         }
 }
 
+
 @media screen and (min-width: 1168px) {
 
-    .footer {
-       
-    }
+.footer.container {
+    
+}
+
     .futer-container {
-        
-        width: 1440px;
+        min-width: 1440px;
         height: 312px;
         display: flex;
         flex-wrap: nowrap;
         align-items: baseline;
-        padding-bottom: 0;
-     
+        
     }
 
     .logo-foot-container {
         margin: 0;
         padding: 0;
         width: 264px;
-        margin-right: 120px;
+        
         }
 }
 
@@ -843,6 +840,14 @@ margin: auto;
         margin-top: 16px;
     }
 }
+
+@media screen and (min-width: 1168px) {
+    .media-footer {
+        padding: 0;
+        margin-left: 120px;
+    }
+}
+
 
 .subscribe {
     display: flex;
@@ -897,7 +902,7 @@ margin: auto;
 
 @media screen and (min-width: 1168px) {
     .subscribe {
-         margin-left: auto;
+         margin-left: 80px;
         }
 }
 
