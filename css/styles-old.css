@@ -616,7 +616,7 @@ align-items: center;
     margin-bottom: 16px;
 }
 
-.modal-close {
+/*.modal-close {
     position: absolute;
     display: flex;
     align-items: center;
@@ -654,7 +654,7 @@ align-items: center;
 .icon-close:hover,
 .icon-close:focus {
     fill: #fff;
-}
+}*/
 
 
 .form-client-cont {
