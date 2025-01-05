@@ -5,6 +5,8 @@ body {
 }
 
 .container {
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
 }
 
@@ -310,11 +312,12 @@ img {
 }
 
 .mobile-menu-icons {
+
 display: flex;
+align-items: flex-end;
 width: 100%;
-justify-content: center;
-gap: 48px;
-margin: auto;
+gap: 40px;
+
 }
 
 .icon {
