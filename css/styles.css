@@ -383,7 +383,7 @@ gap: 40px;
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
-        height: 1440px;
+        max-width: 1440px;
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
